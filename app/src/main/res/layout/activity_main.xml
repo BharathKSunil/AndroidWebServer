@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/primary_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Power ON button-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main_power_on"
+        style="@style/MainFabTheme"
+        app:backgroundTint="@color/emerald"
+        app:rippleColor="@color/red"
+        app:srcCompat="@drawable/ic_power_white"
+        tools:visibility="visible" />
+    <!-- Power OFF button-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main_power_off"
+        style="@style/MainFabTheme"
+        app:backgroundTint="@color/red"
+        app:rippleColor="@color/emerald"
+        app:srcCompat="@drawable/ic_power_white"
+        tools:visibility="visible" />
+
+</RelativeLayout>

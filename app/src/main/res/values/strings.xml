@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">MAPP Simulator</string>
+
+    <string name="message_server_running">You can now access this Android Web Server from a browser
+        or device connected to the same wifi network.</string>
+    <string name="message_server_stopped">After connecting to a WiFi network press the power button
+        to start/stop the Android Web Server</string>
+
+    <!--region Formatted Strings-->
+    <string name="format_ip_address">http://%s: %s</string>
+    <string name="format_app_version">App Version: %s</string>
+    <!--endregion-->
+
+    <!--region Error Messages-->
+    <string name="error_generic">Oops! Something went wrong</string>
+    <string name="error_invalid_port">Invalid port number</string>
+    <string name="error_port_in_use">The Port %s is in use</string>
+    <string name="error_invalid_config">Invalid Server Configuration</string>
+    <string name="error_wifi_off">Please connect to a WiFi Network</string>
+    <!--endregion-->
+
+    <!--region Content Descriptions-->
+    <string name="cd_wifi_status">Wifi Status</string>
+    <!--endregion-->
+
+    <string name="server_stopped">Stopped</string>
+    <string name="wifi_disconnected">Disconnected</string>
+
 </resources>
